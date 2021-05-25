@@ -1,0 +1,525 @@
+/* Color Refrences
+
+Brand Blue:     #346e92
+
+*/
+
+/* GENERAL
+================================================*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: Helvetica, sans-serif;
+    color: currentColor;
+}
+
+body {
+    overflow-x: hidden;
+    padding-top: 45px;
+    background: url('img/bg.png') top left repeat;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* GLOBAL
+================================================*/
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, h2 {
+    margin: 0 0 40px;
+}
+
+p {
+    margin: 0 0 15px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 100px 0;
+}
+
+footer {
+    padding: 100px 0 10px;
+}
+
+li {
+    list-style: none;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+address p {
+    font-size: 20px;
+}
+
+.whitebg {
+    background: #ffffff;
+}
+
+.bluebg {
+    background: #346e92;
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.listin {
+    margin: 0;
+    padding: 0;
+}
+
+.listin li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.listin li:first-child {
+    padding-left: 0;
+}
+
+.CTAs {
+    display: none;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.centroid {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sectionHeader {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.sectionSub {
+    color: #777;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.sectionTitle{
+    color: #777;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.sectionBody {
+    font-size: 20px;
+    color: #333;
+}
+
+.sectionThumb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 8px solid #346e92;
+}
+
+.sectionThumb:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.imgDesc {
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sectionFooter {
+    position: relative;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #777;
+}
+
+.btn-list {
+    margin-top: 75px;
+}
+
+.btn-outline {
+    color: #346e92;
+    font-size: 16 px;
+    border: solid 2px #346e92;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+    color: #ffffff;
+    background: #346e92;
+}
+
+.btn-default {
+    color: #346e92;
+}
+
+.badge.social {
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    padding: 0;
+    margin: 0 0 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #346e92;
+}
+
+.badge.social.facebook:hover,
+.badge.social.facebook:focus {
+    background: #3b5998;
+}
+
+.badge.social.instagram:hover,
+.badge.social.instagram:focus {
+    background: #E43762; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right top, #C93582, #FABB63); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #C93582, #FABB63); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, #C93582, #FABB63); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, #C93582, #FABB63); /* Standard syntax */
+}
+
+.badge.social.linkedin:hover,
+.badge.social.linkedin:focus {
+    background: #0077B5;
+}
+
+
+
+/* NAV-BAR
+================================================*/
+nav.navbar{
+    padding: 15px 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    margin-top: -20px;
+    max-width: 120px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #346e92;
+}
+
+
+
+
+/* HERO
+================================================*/
+#hero {
+    background: url('img/hero2.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    margin-top: -50px;
+}
+
+#hero p {
+    color: #6A6A6A;
+}
+
+#heroLogo {
+    width: 400px;
+}
+
+#heroText {
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+#heroCTA {
+    width: 170px;
+}
+
+#heroSocial {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+
+
+/* FOUNDERS
+================================================*/
+.founderImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 8px solid #346e92;
+}
+
+.founderImg:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+
+
+/* FOOTER
+================================================*/
+footer a#contactOptions {
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+footer .sectionBody {
+    color: #ffffff;
+}
+
+footer #social{
+    margin-bottom: 50px;
+}
+
+footer textarea {
+    min-height: 132px;
+    max-height: 132px;
+}
+
+footer form {
+    padding: 0 30px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+
+
+
+/* ABOUT
+================================================*/
+#mainInfo {
+    padding-top: 20px;
+}
+
+#aboutHero {
+    background: url('img/heroUtopians.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 480px;
+}
+
+#storyBg {
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: -150px;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+}
+
+#story {
+    background: #ffffff;
+    height: auto;
+    padding: 75px 30px;
+    border: 3px solid #346e92;
+}
+
+#ourStory {
+    margin-bottom: 100px;
+}
+
+#storyCarousel {
+    margin-bottom: 50px;
+}
+
+#storyCTA {
+    margin-bottom: 50px;
+}
+
+
+
+
+/* CONTACT OPTIONS
+================================================*/
+.specificOption {
+    background: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.specificOption:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
+
+/* CONTACT INFO
+================================================*/
+.contactOption {
+    padding: 40px 20px;
+    text-align: center;
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.contactOption:nth-child(3n) {
+    margin-right: 0;
+}
+
+.contactOption address {
+    margin-bottom: 50px;
+}
+
+.contactOption .btn-block {
+    max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+/*======== MEDIA QUERIES ========*/
+@media screen and (max-width : 991px) {
+    
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+    #heroText {
+    margin-top: 50px;
+    }
+    
+    .sectionThumb {
+        margin-bottom: 75px;
+        width: 80%;
+        max-width: 350px;
+    }
+    
+    .sectionBody {
+        text-align: center;
+    }
+    
+    .listin {
+        display: none;
+    }
+    
+    .CTAs {
+        display: block;
+        padding: 0 30px;
+    }
+    
+    .next-btn {
+        margin-top: 15px;
+    }
+    
+    .founder {
+        padding-bottom: 100px;
+    }
+    
+    footer .col-sm-6 {
+        margin-bottom: 100px;
+    }
+    
+    .specificOption {
+        width: 48%;
+        margin-right: 2%;
+        min-height: 300px;
+    }
+    
+    .contactOption {
+       width: 100%;
+        margin-right: 0;
+        min-height: 0;
+    }
+}
+
+
+
+@media screen and (max-width : 568px) {
+    .specificOption {
+       width: 100%;
+        margin-right: 0;
+        min-height: 0;
+    }
+    
+    #storyBg {
+        background: #ffffff;
+        margin: 0 auto;
+        margin-top: -120px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #story {
+        background: #ffffff;
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
+}

@@ -1,0 +1,274 @@
+/* Color Refrences
+
+Brand Blue:     #346e92
+
+*/
+
+/* GENERAL
+================================================*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: Helvetica, sans-serif;
+    color: currentColor;
+}
+
+body {
+    overflow-x: hidden;
+    background: url('img/bg.png') top left repeat;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* GLOBAL
+================================================*/
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, h2 {
+    margin: 0 0 40px;
+}
+
+p {
+    margin: 0 0 15px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 100px 0;
+}
+
+footer {
+    padding: 100px 0 10px;
+}
+
+li {
+    list-style: none;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+address p {
+    font-size: 20px;
+}
+
+.whitebg {
+    background: #ffffff;
+}
+
+.bluebg {
+    background: #346e92;
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.listin {
+    margin: 0;
+    padding: 0;
+}
+
+.listin li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.listin li:first-child {
+    padding-left: 0;
+}
+
+.CTAs {
+    display: none;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.centroid {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sectionHeader {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.sectionSub {
+    color: #777;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.sectionTitle{
+    color: #777;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.sectionBody {
+    font-size: 20px;
+    color: #333;
+}
+
+.sectionThumb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 8px solid #346e92;
+}
+
+.sectionThumb:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.imgDesc {
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sectionFooter {
+    position: relative;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #777;
+}
+
+.btn-list {
+    margin-top: 75px;
+}
+
+.btn-outline {
+    color: #346e92;
+    font-size: 16 px;
+    border: solid 2px #346e92;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+    color: #ffffff;
+    background: #346e92;
+}
+
+.btn-default {
+    color: #346e92;
+}
+
+.badge.social {
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    padding: 0;
+    margin: 0 0 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #346e92;
+}
+
+.badge.social.facebook:hover,
+.badge.social.facebook:focus {
+    background: #3b5998;
+}
+
+.badge.social.instagram:hover,
+.badge.social.instagram:focus {
+    background: #E43762; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right top, #C93582, #FABB63); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #C93582, #FABB63); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, #C93582, #FABB63); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, #C93582, #FABB63); /* Standard syntax */
+}
+
+.badge.social.linkedin:hover,
+.badge.social.linkedin:focus {
+    background: #0077B5;
+}
+
+
+
+
+/* NAV-BAR
+================================================*/
+nav.navbar{
+    padding: 15px 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    margin-top: -20px;
+    max-width: 120px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #346e92;
+}
+
+
+
+
+/* RECRUITMENT
+================================================*/
+#recruitment {
+    background: url('img/heroUtopians.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 650px;
+    color: white;
+}
+
+#recruitment h1 {
+    padding-top: 250px;
+}
+
+#recruitment a {
+    max-width: 150px;
+}
+
+iframe {
+    width: 100%;
+}
